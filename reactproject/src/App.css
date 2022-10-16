@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  height: 580px;
+  width: 800px;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 230px;
+  background-color: hwb(216 18% 14%);
+  align-self: center;
+  overflow: auto;
+}

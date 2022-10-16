@@ -1,0 +1,36 @@
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.todo-row {
+    display: inline-table;
+    margin: 4px auto;
+    color: #fff;
+    background-color: coral;
+    padding: 16px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.icons {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.edit-icon {
+  color: #fff;
+}
+
+.complete{
+    background-color: dimgrey;
+    border: 5px dotted rgba(7, 222, 29, 0.863);
+}
+
